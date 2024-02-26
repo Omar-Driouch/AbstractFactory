@@ -19,6 +19,10 @@ namespace AbstractFactory.Factory
             {
                 return (new BankB());
             }
+            if (name == "3")
+            {
+                return (new CIHBANK());
+            }
             else
             {
                 return (null);
